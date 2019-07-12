@@ -31,17 +31,79 @@
     </nav>
 
 
-    <section>
-      <div class="row">
-        <div class="col-6"></div>
-        <h2>MUSEUM OF CANDY</h2>
-        <div class="col-6"></div>
+    <section class="container-fluid px-0">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
+            <h1 class="">MUSEUM <span>/</span> OF <span>/</span> CANDY</h1>
+            <h1 class="">MUSEUM <span>/</span> OF <span>/</span> CANDY</h1>
+            <h1 class="">MUSEUM <span>/</span> OF <span>/</span> CANDY</h1>
+            <h1 class="">MUSEUM <span>/</span> OF <span>/</span> CANDY</h1>
+            <h1 class="">MUSEUM <span>/</span> OF <span>/</span> CANDY</h1>
+            <h1 class="">MUSEUM <span>/</span> OF <span>/</span> CANDY</h1>
+            <h1 class="">MUSEUM <span>/</span> OF <span>/</span> CANDY</h1>
+          </div>
+        </div>
+        <div class="col-lg-6">
+        <img class="img-fluid" src="imgs/hand2.png" alt="">
       </div>
     </section>
 
 
+  <section class="container-fluid px-0">
+    <div class="row align-items-center content">
+      <div class="col-md-6 order-2 order-md-1">
+        <img src="imgs/milk.png" alt="" class="img-fluid">
+      </div>
+      <div class="col-md-6 text-center order-1 order-md-2">
+        <div class="row justify-content-center">
+          <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+            <h2>Museum of Candy</h2>
+            <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
+            <p class="lead">Cat ipsum dolor sit amet, run off table persian cat jump eat fish. Stare at wall turn and meow stare at wall some more meow again continue staring stare at owner accusingly then wink love i cry and cry and cry unless you pet me, and then maybe i cry just for fun destroy house in 5 seconds and find a way to fit in tiny box for demand to have some of whatever the human is cooking, then sniff the offering and walk away. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row align-items-center content">   
+        <div class="col-md-6 text-center">
+          <div class="row justify-content-center">
+            <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+              <h2>Museum of Candy</h2>
+              <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
+              <p class="lead">Cat ipsum dolor sit amet, run off table persian cat jump eat fish. Stare at wall turn and meow stare at wall some more meow again continue staring stare at owner accusingly then wink love i cry and cry and cry unless you pet me, and then maybe i cry just for fun destroy house in 5 seconds and find a way to fit in tiny box for demand to have some of whatever the human is cooking, then sniff the offering and walk away. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 ">
+          <img src="imgs/gumball.png" alt="" class="img-fluid">
+        </div>
+      </div>
+      <div class="row align-items-center content">
+          <div class="col-md-6 order-2 order-md-1">
+            <img src="imgs/sprinkles.png" alt="" class="img-fluid">
+          </div>
+          <div class="col-md-6 text-center order-1 order-md-2">
+            <div class="row justify-content-center">
+              <div class="col-10 col-lg-8 blurb mb-5 mb-md-0<<</">
+                <h2>Museum of Candy</h2>
+                <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
+                <p class="lead">Cat ipsum dolor sit amet, run off table persian cat jump eat fish. Stare at wall turn and meow stare at wall some more meow again continue staring stare at owner accusingly then wink love i cry and cry and cry unless you pet me, and then maybe i cry just for fun destroy house in 5 seconds and find a way to fit in tiny box for demand to have some of whatever the human is cooking, then sniff the offering and walk away. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+    <script >
+      $(function() {
+        $(document).scroll(function(){
+          var $nav = $("#mainNavbar");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
+  </body> 
 </html>
